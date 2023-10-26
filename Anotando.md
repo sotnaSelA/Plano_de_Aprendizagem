@@ -8,13 +8,13 @@ que já conhece a linguagem C achará a transição para Java simples e fácil.
 A sintaxe de Java fornece uma versão mais limpa do que C++. Em Java não existe aritmética de
 ponteiros, estruturas, uniões e etc.
 
-    Classes?
-        É a representação virtualizada de um item fisico que será usado com um molde para a criação de objetos com propriedade em comum.
+## Classes?
+É a representação virtualizada de um item fisico que será usado com um molde para a criação de objetos com propriedade em comum.
 >## Exemplo:
 >![Alt text](image.png)
                              
-    Herança?
-    É um tipo classe com atributos herdados de uma classe pai com o intuito de ser implementadas com novos atributos.
+## Herança?
+É um tipo classe com atributos herdados de uma classe pai com o intuito de ser implementadas com novos atributos.
 
 >## Exemplo:
 >![Alt text](image-1.png)ação:
@@ -29,14 +29,15 @@ ponteiros, estruturas, uniões e etc.
 # Front-End
 ## HTML
 ### O que é?
-    A Linguagem de Marcação de HiperTexto(HTML) éumo bloco de construção mais básico da web que define o significado e a estrutura do conteúdo da web como o esqueleto de um Site.
+A Linguagem de Marcação de HiperTexto(HTML) éumo bloco de construção mais básico da web que define o significado e a estrutura do conteúdo da web como o esqueleto de um Site.
 
 ### SEO?
-    A otimização para mecanismos de busca é o conjunto de estratégias para potencializar e melhorar o posicionamento de um site nas páginas de resultados orgânicos, assim os algaritmos do google conseguem destacar melhor o seu site.  
+A otimização para mecanismos de busca é o conjunto de estratégias para potencializar e melhorar o posicionamento de um site nas páginas de resultados orgânicos, assim os algaritmos do google conseguem destacar melhor o seu site.  
 
 ### Elementos Semânticos
-    conseguem passar uma informação com um significado específico para o conteúdo interpretado pelo navegador, ou seja, é um beneficio se tratando do SEO,Ajuda leitores de tela, Cofigo mais limpo e compreensivl(Assim, facilitando a organização do codigo e facilita a manutenção).
-        São elas: Header, Main, Footer entre outras.
+conseguem passar uma informação com um significado específico para o conteúdo interpretado pelo navegador, ou seja, é um beneficio se tratando do SEO,Ajuda leitores de tela, Cofigo mais limpo e compreensivl(Assim, facilitando a organização do codigo e facilita a manutenção).
+    São elas: Header, Main, Footer entre outras.
+    
 ![Alt text](image-4.png)
 
 >HEADER Representa o CABEÇALHO dos sites, onde conterá as logos, links entre outros.
@@ -95,7 +96,8 @@ ponteiros, estruturas, uniões e etc.
 
 >P: Define que seu conteudo seja interpretado pelo seu site como um PARAGRAFO.
 
-BR: utlizado para quebra linhas.
+>BR: utlizado para quebra linhas.
 
-HR: Utilizado para criar uma divisão no seu conteudo.
+>HR: Utilizado para criar uma divisão no seu conteudo.
 
+>OL: para criar listas   & LI: para colocar o conteudo. 
