@@ -37,7 +37,7 @@ A otimização para mecanismos de busca é o conjunto de estratégias para poten
 ### Elementos Semânticos
 conseguem passar uma informação com um significado específico para o conteúdo interpretado pelo navegador, ou seja, é um beneficio se tratando do SEO,Ajuda leitores de tela, Cofigo mais limpo e compreensivl(Assim, facilitando a organização do codigo e facilita a manutenção).
     São elas: Header, Main, Footer entre outras.
-    
+
 ![Alt text](image-4.png)
 
 >HEADER Representa o CABEÇALHO dos sites, onde conterá as logos, links entre outros.
@@ -55,7 +55,7 @@ conseguem passar uma informação com um significado específico para o conteúd
 
 
 ### Atributo Global
-    Atributos Globais são atributos comuns a todos elementos HTML; eles podem ser usados em todos os elementos, embora os atributos não tenham efeito em alguns elementos, como por exemplo "class, id, lang, style".
+Atributos Globais são atributos comuns a todos elementos HTML; eles podem ser usados em todos os elementos, embora os atributos não tenham efeito em alguns elementos, como por exemplo "class, id, lang, style".
 
 ![Alt text](image-5.png)
 
