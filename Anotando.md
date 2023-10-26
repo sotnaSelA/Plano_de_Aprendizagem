@@ -24,11 +24,9 @@ ponteiros, estruturas, uniões e etc.
 
 
 
-
-
-# Front-End
-## HTML
-### O que é?
+># Front-End
+# HTML
+## O que é?
 A Linguagem de Marcação de HiperTexto(HTML) éumo bloco de construção mais básico da web que define o significado e a estrutura do conteúdo da web como o esqueleto de um Site.
 
 ### SEO?
