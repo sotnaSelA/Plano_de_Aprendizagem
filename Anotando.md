@@ -26,7 +26,7 @@ ponteiros, estruturas, uniões e etc.
 
 ># Front-End
 # HTML
-## O que é?
+### O que é?
 A Linguagem de Marcação de HiperTexto(HTML) éumo bloco de construção mais básico da web que define o significado e a estrutura do conteúdo da web como o esqueleto de um Site.
 
 ### SEO?
@@ -98,4 +98,81 @@ Atributos Globais são atributos comuns a todos elementos HTML; eles podem ser u
 
 >HR: Utilizado para criar uma divisão no seu conteudo.
 
->OL: para criar listas   & LI: para colocar o conteudo. 
+>OL: para criar listas   
+>> LI: para colocar o conteudo de forma ordenada. 
+>>
+>>UL: para colocar o conteudo de forma NÂO ordenada. 
+
+>a href=""> /a>: TAG Utilizada através de um texto para que possa navegar entre links.
+
+>img src="link da img" alt="nomeclatura" width="500" height="600">: TAG usada para inserir imagens na pagina, e através de alguns parametros, podemos inserir uma nomeclatura para identificar a imagem ou padronizar um tamanho para sua imagem.
+
+>video width="620" height="540" controls>
+    >>src="movie.mp4" type="video/mp4">
+>
+>/video>: TAG Utilizada para reproduzir VIDEOS.
+
+>audio controls>
+    >>src="horse.mp3" type="audio/mpeg">
+>
+>/audio>: TAG Utilizada para reproduzir AUDIOS.
+
+
+>table: TAG usada para criar tabelas, exemplo a abaixo.
+
+    table>: Abre tabela
+      tr>: abre um novo registro ou tupla
+        th>Mês</th>: abre titulo das colunas
+       th>Valor</th>: abre titulo das colunas
+      /tr>
+      tr>: abre um novo registro ou tupla
+        td>Janeiro</td>: adiciona conteudo ao registro
+        td>R$100</td>: adiciona conteudo ao registro
+      /tr>
+      tr>: abre um novo registro ou tupla
+        td>Fevereiro</td>: adiciona conteudo ao registro
+        td>R$80</td>: adiciona conteudo ao registro
+      /tr>
+    /table>: Fecha tabela
+
+>form action="/action_page.php" method="get"> 
+>
+>/form>: Tag utlizado para tratar formulario. 
+>
+>Para utiliza-lo é preciso informar a proxima page e informar o METHOD que tem como opção GET usado mais para PAGINA ou Post Utilizado para SERVIDORES
+
+>input: Campo para entrada de dados que usando o TYPE pode configurar esse campo para receber varios tipos de elementos de dados
+
+    <input type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text"> (Valor padrão)
+    <input type="time">
+    <input type="url">
+    <input type="week
+
+>A label tag define um rótulo para vários elementos de dados
+
+    <label for="User">Usuário</label> 
+    <input type="text" id="User" name="Name" />
+    <label for="User">Senha</label> 
+    <input type="password" id="User" name="Name" />
+
+>button: tag define um botão clicável.
+
+    <button> Acessar</button>
