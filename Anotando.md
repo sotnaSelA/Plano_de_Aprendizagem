@@ -176,3 +176,102 @@ Atributos Globais são atributos comuns a todos elementos HTML; eles podem ser u
 >button: tag define um botão clicável.
 
     <button> Acessar</button>
+
+
+
+
+
+# JavaScript
+## O que é?
+é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional).[2][3] Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.[4] É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante utilizada do lado do servidor através de ambientes como o node.js.
+
+## Java ou JavaScript?
+Java é uma linguagem de programação OOP, ao passo que Java Script é uma linguagem de scripts OOP.
+Java cria aplicações executadas em uma máquina virtual ou em um browser, ao passo que o código JavaScript é executado apenas em um browser.
+
+## Linguagem funcional
+é um paradigma (É a representação de um padrão a ser seguido) de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis.
+### Funções Puras 
+
+
+### Funções Impuras 
+
+### Stateless (SEM ESTADO)
+Trata das funções que ao ter uma variavel é definida, por mais que o valor seja definido sempre voltará oa estado inicial.
+
+OU SEJA, essa função precisa atender 2 requisitos, tem que retornar sempre o mesmo valor se passar o mesmo parametro e não pode ter nenhum efeito colateral. 
+
+### Immutable (IMUTAVEL)
+Trata das funções que ao ter uma variavel é definida, o valor NUNCA poderá ser alterada, mas poderá ser copiado paa receber um novo valor.
+
+## Funções de primeira classe e Funções de alta ordem
+Uma linguagem tem funções de primeira classe, quando funções podem ser tratadas como valores que podem ser passados, manipulados, retornados... ou seja, é possível operar funções. Este conceito é um atributo da linguagem, ou ela tem ou não tem. Função de alta ordem é uma função que recebe ou retorna uma função.
+
+## Sintaxe
+### Regras e comandos JavaScript
+No  JavaScript podemos ter varios tipos de conteudo como: textos, numeros, numeros decimais...
+
+    Diferenças de Textos e Numeros
+
+    Se colocarmos Aspas entre algum caractere o JS vai entender que esse valores são String
+        por exemplo:
+            console.log(5+5);   
+        Como podemos ver não à aspas entre parenteses, tem dois numeros e caractere Aritimetico, ou seja, o JS identifica que é um calculo.
+
+            console.log("5+5"); ou console.log('5+5');
+        Já aqui podemos notar que Existem as aspas, ou seja, o JS entende que é uma String.
+
+A linguagem foi desenvolvida para Case Sensivel, ou seja identifica quando o caractere é MAISCULA ou minuscula.
+NO caso do JS foi desenvolvida o CaseCamel, uma forma de escrita que se assemelha muito ao desenho de uma camelo.
+        
+        por emxemplo:
+        var PESSOA ='Dimitri'
+        var pessoa ='Teixeira'
+
+Por mais que seja a mesma palavra, JS entende como caracteres diferentes.
+
+### principais tipos de variaveis
+
+>var
+
+    jkn
+
+>let
+
+    nvh
+
+>const
+
+    nvh
+
+
+
+
+
+
+
+<!-- 
+Habitos a se seguir:
+se arrisque, realize desafios.
+
+anote tudo que causa duvidas, pesquise a fundo e escreva um resumo.
+ao travar se frustar, dê 30 min de pausa.
+tudo que for fazer, faça por você, estude, trabalhe por você
+
+-->
+
+<!-- 
+# Dicionario do Programador
+## expressão Lambda
+
+## expressão map
+
+## expressão Filter
+
+## Redux
+
+##  Design Patterns 
+
+
+
+-->
