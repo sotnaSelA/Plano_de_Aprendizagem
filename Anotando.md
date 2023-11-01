@@ -208,12 +208,13 @@ Trata das funções que ao ter uma variavel é definida, o valor NUNCA poderá s
 Uma linguagem tem funções de primeira classe, quando funções podem ser tratadas como valores que podem ser passados, manipulados, retornados... ou seja, é possível operar funções. Este conceito é um atributo da linguagem, ou ela tem ou não tem. Função de alta ordem é uma função que recebe ou retorna uma função.
 
 ## Sintaxe
-### Regras e comandos JavaScript
+### Fundamentos do JavaScript
 No  JavaScript podemos ter varios tipos de conteudo como: textos, numeros, numeros decimais...
 
-    Diferenças de Textos e Numeros
+Diferenças de Textos e Numeros
 
-    Se colocarmos Aspas entre algum caractere o JS vai entender que esse valores são String
+Se colocarmos Aspas entre algum caractere o JS vai entender que esse valores são String
+
         por exemplo:
             console.log(5+5);   
         Como podemos ver não à aspas entre parenteses, tem dois numeros e caractere Aritimetico, ou seja, o JS identifica que é um calculo.
@@ -222,6 +223,7 @@ No  JavaScript podemos ter varios tipos de conteudo como: textos, numeros, numer
         Já aqui podemos notar que Existem as aspas, ou seja, o JS entende que é uma String.
 
 A linguagem foi desenvolvida para Case Sensivel, ou seja identifica quando o caractere é MAISCULA ou minuscula.
+
 NO caso do JS foi desenvolvida o CaseCamel, uma forma de escrita que se assemelha muito ao desenho de uma camelo.
         
         por emxemplo:
@@ -230,24 +232,60 @@ NO caso do JS foi desenvolvida o CaseCamel, uma forma de escrita que se assemelh
 
 Por mais que seja a mesma palavra, JS entende como caracteres diferentes.
 
+### Tipos de dados
+JavaScript é uma linguagem dinâmica com tipos dinâmicos. As variáveis em JavaScript não estão diretamente associadas a nenhum tipo de valor específico, e qualquer variável pode receber (e reatribuir) valores de todos os tipos:
+
+    Os mais utilizados são: 
+        Number: relacionado a dados numericos
+
+        String: relacionado aos dados de texto
+
+        Boolean: representa uma entidade lógica e pode ter dois valores true e false
+
+        Null: tem exatamente um valor: null. 
+        
+        Undefined: Uma variável que não recebeu um valor.
+
 ### principais tipos de variaveis
+variaveis são usadas en todas as linguagem e extremamente importantes, pois é nelas que vamos guardar nossos dados.
 
->var
+    VAR:é variavel do tipo Global, o seja, consegue ser instanciado e chamado em qualquer parte do codigo
+        EX:
+        if(true){
+            var num = 10;
+        }
 
-    jkn
+        console.log(num);
 
->let
+    LET: é bem parecido com o VAR, porém, só consegue ser instanciado e chamado dentro do mesmo bloco de codigo.
+        EX:
+        if(true){
+            let num = 10;
+            console.log(num);
+        }
 
-    nvh
+    se estivesse fora, daria um erro informando que NUM não foi estabelecido.
 
->const
+    CONST: tem escopo em parecido com ele,ou seja, só consegue ser instanciado e chamado dentro do mesmo bloco de codigo, porém, por se tratar de uma constante, o valor atribuido não poderá sofrer nenhuma mudança
+        EX:
+        if(true){
+            const num = 20;
+            num = 10;
 
-    nvh
+            console.log(num);
+        }
+    nesse caso ocorrerá um erro, pois estou estabelecendo que o valor da constante está sendo alterado.
 
+### Funções
 
+### Operadores
 
+### Typeof
 
+## NODE JS
 
+# function
+# responsavidade
 
 
 <!-- 
